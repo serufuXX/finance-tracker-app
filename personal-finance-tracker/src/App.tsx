@@ -1,3 +1,5 @@
+import Navigation from "./view/Components/Navigation";
+
 function App() {
   return (
     <>
@@ -6,22 +8,7 @@ function App() {
           <img src="" alt="Finance Tracker logo" />
           <h1>Personal Finance Tracker</h1>
         </div>
-        <nav>
-          <ul>
-            <li>
-              <a href="#!">2025 Saving</a>
-            </li>
-            <li>
-              <a href="#!">filter</a>
-            </li>
-            <li>
-              <a href="#!">Income Breakdown</a>
-            </li>
-            <li>
-              <a href="#!">Expenses Breakdown</a>
-            </li>
-          </ul>
-        </nav>
+        <Navigation />
       </header>
       <main>
         <section aria-label="Something розумне">
@@ -66,7 +53,7 @@ function App() {
             <caption>Expenses</caption>
             <thead>
               <tr>
-                <th>Selest</th>
+                <th>Select</th>
                 <th>Amount</th>
                 <th>Tags</th>
                 <th>Date</th>
